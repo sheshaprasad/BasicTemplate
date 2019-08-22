@@ -1,0 +1,22 @@
+Documentation For Basic Template (Autoprufer : Created by Shesha Vasukhi Prasad)
+
+This App is built on AndroidX support rather than the conventional android v7 support… ( for the purpose of supporting android devices consists of P and Above ).
+
+Note : The following only works when the activity is extended with BaseActivity of the same package as its super class.
+
+1. Internet alert throughout the app… and handler to check connectivity on app start.
+2. Volley library implemented with response listeners… ( OnSuccess and OnError ).
+3. ( InitViews ) function is a custom override method that is called after the activity is created… It can be used to initialise views and click listeners or load data in the activity.
+4. The App has a custom font throughout (Roboto Black)… And the splash screen has a Special Font called as (Permanent marker) both fonts are obtained from Google Fonts.
+5. The app is fullscreen and protected by disabling screenshots throughout.
+6. This app also contains all the material colors specified in the google documentation.
+3rd Party Libraries present are:
+
+1. com.github.gcacace:signature-pad:1.2.1 
+2. pl.droidsonroids.gif:android-gif-drawable:1.2.16
+3. com.android.volley:volley:1.1.1
+4. de.hdodenhof:circleimageview:3.0.0
+5. com.github.bumptech.glide:glide:4.9.0
+6. com.getkeepsafe.taptargetview:taptargetview:1.11.0
+7. com.romainpiel.shimmer:library:1.4.0
+8. com.nightonke:boommenu:2.1.1
