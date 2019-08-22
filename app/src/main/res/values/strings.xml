@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Basic Templte</string>
+    <string name="app_name_splash">B A S I C - T E M P L A T E</string>
+
+    <string name="server_id">#</string>
+    <string name="server_key">#</string>
+
+
+    <string name="error_network_timeout">Please Check the internet Connection</string>
+    <string name="network_connection_unavailable">Network Connection Unavailable</string>
+    <string name="enable_your_internet_connection">Enable your internet connection</string>
+    <string name="wi_fi">Wi-fi</string>
+    <string name="mobile_data">Mobile data</string>
+
+
+</resources>
