@@ -3,6 +3,7 @@ package de.thinksonic.basictemplate.application_ui
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
@@ -25,7 +26,7 @@ import de.thinksonic.basictemplate.tools.RequestTypes
     For Project : BasicTemplate
 */
 
-class TrainerActivity : BaseActivity() {
+class TrainerActivity() : BaseActivity() {
 
     internal lateinit var one: CardView
     internal lateinit var two: CardView
@@ -63,7 +64,7 @@ class TrainerActivity : BaseActivity() {
         skip.setOnClickListener {
             // TODO Auto-generated method stub
 
-            val main = Intent(this@TrainerActivity, ChooseActivity::class.java)
+            val main = Intent(this, ChooseActivity::class.java)
             startActivity(main)
             finish()
         }
@@ -73,7 +74,7 @@ class TrainerActivity : BaseActivity() {
             if (mViewPager!!.currentItem != mTrainerPagerAdapter!!.count - 1) {
                 mViewPager!!.currentItem = mViewPager!!.currentItem + 1
             } else {
-                val main = Intent(this@TrainerActivity, ChooseActivity::class.java)
+                val main = Intent(this, ChooseActivity::class.java)
                 startActivity(main)
                 finish()
             }

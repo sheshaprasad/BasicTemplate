@@ -18,5 +18,5 @@ import de.thinksonic.basictemplate.interfaces.VolleyHandler
 @SuppressLint("Registered")
 abstract class BaseActivity : AppCompatActivity(), VolleyHandler, ActivityCreated {
     var initialized = false
-    var parentView: View? = null
+
 }

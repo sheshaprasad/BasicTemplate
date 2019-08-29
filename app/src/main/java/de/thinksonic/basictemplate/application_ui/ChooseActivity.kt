@@ -19,7 +19,9 @@ import de.thinksonic.basictemplate.tools.RequestTypes
     For Project : BasicTemplate
 */
 
-class ChooseActivity : BaseActivity() {
+class ChooseActivity() : BaseActivity() {
+
+    lateinit var parentView: View
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
