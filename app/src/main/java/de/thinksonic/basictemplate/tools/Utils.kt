@@ -30,8 +30,7 @@ import de.thinksonic.basictemplate.app_initializer.AppInit
 import de.thinksonic.basictemplate.R
 import pl.droidsonroids.gif.GifImageButton
 
-
-/*
+/**
     Created By : Shesha Vasukhi Prasad
     Date : 15-Jul-2019
     Time : 22:45

@@ -35,9 +35,9 @@ class VolleyClass(private val mContext: Context, private val mVolleyHandler: Vol
             try {
 
                 val js = JSONObject(response!!)
-                if (js.getString("result").equals("fail", ignoreCase = true)) {
+                if (js.getString("result").equals("fail", true)) {
                     try {
-                        if (js.getString("reason").equals("Authentication Failure", ignoreCase = true)) {
+                        if (js.getString("reason").equals("Authentication Failure",true)) {
 
                             val logOut = Intent(mContext, SplashActivity::class.java)
                             logOut.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK

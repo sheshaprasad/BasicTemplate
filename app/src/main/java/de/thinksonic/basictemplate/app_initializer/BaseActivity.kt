@@ -1,7 +1,7 @@
 package de.thinksonic.basictemplate.app_initializer
 
 
-/*
+/**
     Created By : Shesha Vasukhi Prasad
     Date : 15-Jul-2019
     Time : 23:34

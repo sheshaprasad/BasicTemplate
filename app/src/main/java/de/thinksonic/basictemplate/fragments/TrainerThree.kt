@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import de.thinksonic.basictemplate.R
 
-/*
+/**
     Created By : Shesha Vasukhi Prasad
     Date : 16-Jul-2019
     Time : 01:44

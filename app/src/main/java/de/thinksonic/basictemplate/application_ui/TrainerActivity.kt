@@ -19,7 +19,7 @@ import de.thinksonic.basictemplate.app_initializer.BaseActivity
 import de.thinksonic.basictemplate.R
 import de.thinksonic.basictemplate.tools.RequestTypes
 
-/*
+/**
     Created By : Shesha Vasukhi Prasad
     Date : 16-Jul-2019
     Time : 01:36
